@@ -12,27 +12,24 @@ Similarly in Linux
 ________________________________________________________________
 🐧 Linux Architecture – The Big Picture
 ----------------------------------------------------------------
-┌─────────────────────────────────────┐
-│     Applications & User Programs    │  
-│   (Firefox, Docker, VS Code, etc.)  │     
-│   → What users directly interact with
-├─────────────────────────────────────┤
-│             User Space              │
-│   (Libraries, Shell, System Tools)  │
-│   → Where programs actually run
-├─────────────────────────────────────┤
-│          System Calls               │
-│   → Communication bridge between    │
-│     user space and kernel
-├─────────────────────────────────────┤
-│           Linux Kernel              │
-│   (Process, Memory, Device Mgmt)    │
-│   → Core brain of the system
-├─────────────────────────────────────┤
-│             Hardware                │
-│   (CPU, RAM, Disk, Network)         │
-│   → Physical components
-└─────────────────────────────────────┘
+Applications & User Programs
+(Firefox, Docker, VS Code)
+→ What users interact with
+------------------------------
+User Space
+(Libraries, Shell, Tools)
+→ Where programs run
+------------------------------
+System Calls
+→ Bridge between User Space & Kernel
+------------------------------
+Linux Kernel
+(Process, Memory, Devices)
+→ Core brain of system
+------------------------------
+Hardware
+(CPU, RAM, Disk, Network)
+→ Physical components
 ____________________________________________________________________________________________________
 
 🔍 Explanation of Each Layer
