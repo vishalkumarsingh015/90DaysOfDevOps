@@ -5,8 +5,8 @@ Process Management – Linux Cheat Sheet
 Manage system resources, view running tasks, and control process execution.
 
 --------------------------------------------------------------------------------------------------------------
-| Command   | Usage Example            | Descrip  |
-| ------------------------------------------------------------------------------- |
+| Command   | Usage Example            | Descrip  
+| --------- | ------------------------ | ------------------------------------------------------------------------------- |
 | `ps`      | `ps aux`                 | Shows all running processes with details like user, PID, CPU, and memory usage. |
 | `top`     | `top`                    | Displays real-time system processes and resource usage (CPU, RAM).              |
 | `htop`    | `htop`                   | Interactive process viewer with a better UI than `top`.                         |
@@ -56,8 +56,8 @@ Networking Troubleshooting Commands – Linux Cheat Sheet
 ------------------------------------------------------------------------------------------------------------
 Diagnose connectivity issues, inspect network configuration, and test services.
 -----------------------------------------------------------------------------------------------------------
-| Command       | Usage Example                       | Description   |
----------------------------------------------------------------------- |
+| Command       | Usage Example                       | Description                                                            |
+| ------------- | ----------------------------------- | ---------------------------------------------------------------------- |
 | `ip`          | `ip a`                              | Displays IP addresses and network interfaces on the system.            |
 | `hostname`    | `hostname -I`                       | Shows the system’s IP address.                                         |
 | `ping`        | `ping google.com`                   | Tests connectivity to another host and checks network latency.         |
